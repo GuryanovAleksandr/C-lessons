@@ -6,7 +6,7 @@
 
 // тип_данных[] имяМассива =
 int[] array = { 11, 22, 33, 44, 55, 66, 77, 88, 99 };
-int numberForSearch = 44;
+int numberForSearch = 55;
 bool isFound = false; // Число не найдено
 // for(точка старта; условие; увеличение счетчика)
 for (int i = 0; i < array.Length; i++) // array.Length ищет кол-во эл
