@@ -19,7 +19,7 @@ char[] ConvertStringToCharArray(string str)
     // "hi" => [str[0], str[1]]
 }
 // “Hello!” => [‘H’, ‘e’, ‘l’, ‘l’, ‘o’, ‘!’ ]
-string Str = "Hello world!";
+string Str = "Hello world & good bye!";
 Console.WriteLine($"Исходная строка: {Str}");
 char[] chars = ConvertStringToCharArray(Str);
 Console.WriteLine($"Массив: [{string.Join("; ", chars)}]");
